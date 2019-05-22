@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox prefHeight="266.0" prefWidth="201.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="201.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/images/Canon.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="84.0" prefWidth="201.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" text="이전" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="다음" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

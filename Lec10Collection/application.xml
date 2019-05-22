@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Property Configuration</comment>
+<entry key="upload.dir">/upload/files</entry>
+<entry key="server.ip">192.168.20.3</entry>
+<entry key="user">java</entry>
+<entry key="password">oracle</entry>
+<entry key="url">jdbc:oracle:thin:@localhost:1521:XE</entry>
+<entry key="profile.active">DEV</entry>
+<entry key="driver">oracle.jdbc.driver.OracleDriver</entry>
+<entry key="common.errer.e01">{0} error occured...</entry>
+</properties>
